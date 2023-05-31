@@ -239,7 +239,7 @@ export default class App extends Component {
                       </div>
                       <div>
                         <button
-                          data-testId="delete"
+                          testid="delete"
                           type="submit"
                           onClick={() => this.deleteItem(each.id)}
                           className="delButton"
